@@ -8,8 +8,8 @@ var savePath = './uploads/';
 var connection = mysql.createConnection({
     host        : 'localhost',
     query       : { pool : true },
-    user        : 'root',
-    password    : "kl;'",
+    user        : 'YOUR MYSQL ID',
+    password    : 'YOUR MYSQL PASSWORD',
     database    : 'nextagram',
     selectlimit : 10,
     timeout     : 40000
